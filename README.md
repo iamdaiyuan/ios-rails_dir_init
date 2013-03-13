@@ -22,19 +22,24 @@
 	assets      controllers helpers     models      views
 
 
-- assets    
+- assets  
+  
 资源文件目录，默认只有images目录（如果需要js，css，html等都可以放到此目录）
 
 - controllers 
+
 UIViewController子类
 
 - helpers     
+
 工具类
 
 - models      
-于db，表单有关的的模型
+
+db，表单有关的的模型
 
 - views
+
 UIView的子类
 
 
@@ -77,3 +82,5 @@ appledoc和md格式的文档，可以生成docset
 
 
 ## 欢迎fork
+
+shiren1118@126.com
