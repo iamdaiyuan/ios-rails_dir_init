@@ -46,30 +46,35 @@ UIView的子类
 ### config
 配置文件目录
 
-比如通过json配置显示某些UIView，实现可配置化
+	比如通过json配置显示某些UIView，实现可配置化
    
 ### db
-sqlite3数据库
+
+	sqlite3数据库
      
 ### doc    
 文档目录
 
-appledoc和md格式的文档，可以生成docset
+	appledoc和md格式的文档，可以生成docset
 
 ### log    
-日志目录
+
+	日志目录
 
 
 ### script   
-常用脚本，命令
+
+	常用脚本，命令
 
 
 ### test   
-暂时用默认的sentest（ghunit，spec）
+
+	暂时用默认的sentest（ghunit，spec）
 
 
 ### server
-采用sinatra做静态json测试
+
+	采用sinatra做静态json测试
 
 
 ### vendor

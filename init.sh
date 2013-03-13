@@ -65,6 +65,7 @@ mkdir vendor
 mkdir log
 mkdir test
 mkdir script
+mkdir server
 
 mkdir -p config/environments
 mkdir -p config/initializers
