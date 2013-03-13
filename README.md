@@ -74,7 +74,7 @@ UIView的子类
 
 ### server
 
-	采用sinatra做静态json测试
+	采用sinatra做静态json测试 @see http://www.sinatrarb.com/intro.html
 
 
 ### vendor
