@@ -44,8 +44,8 @@ UIView的子类
 
 
 ### config
-配置文件目录
 
+	配置文件目录
 	比如通过json配置显示某些UIView，实现可配置化
    
 ### db
@@ -53,8 +53,8 @@ UIView的子类
 	sqlite3数据库
      
 ### doc    
-文档目录
 
+	文档目录
 	appledoc和md格式的文档，可以生成docset
 
 ### log    
