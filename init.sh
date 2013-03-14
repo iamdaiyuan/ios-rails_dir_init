@@ -53,21 +53,23 @@
 #
 #
 
-mkdir -p app/assets/images
-mkdir -p app/controllers 
-mkdir -p app/helpers        
-mkdir -p app/models      
-mkdir -p app/views
+mkdir -p src/app/assets/images
+mkdir -p src/app/controllers 
+mkdir -p src/app/helpers        
+mkdir -p src/app/models      
+mkdir -p src/app/views
 
-mkdir db
-mkdir doc
-mkdir vendor
-mkdir log
-mkdir test
-mkdir script
-mkdir server
+mkdir src/db
+mkdir src/doc
+mkdir src/vendor
+mkdir src/log
+mkdir src/test
+mkdir src/script
+mkdir src/server
 
-mkdir -p config/environments
-mkdir -p config/initializers
-mkdir -p config/locales
+mkdir -p src/config/environments
+mkdir -p src/config/initializers
+mkdir -p src/config/locales
+
+sqlite3 src/db/test.db ""
 
