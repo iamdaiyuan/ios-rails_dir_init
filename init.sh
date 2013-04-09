@@ -53,25 +53,24 @@
 #
 #
 
-mkdir -p src/app/assets/images
-mkdir -p src/app/controllers 
+mkdir -p src/app/business 
 mkdir -p src/app/helpers        
-mkdir -p src/app/models      
-mkdir -p src/app/views
+mkdir -p src/app/3rd      
 mkdir -p src/app/apis
 
-mkdir src/db
-mkdir src/doc
-mkdir src/log
-mkdir src/test
-mkdir src/script
-mkdir src/server
+mkdir -p src/resources/images
+mkdir -p src/resources/db
+mkdir -p src/resources/doc
+mkdir -p src/resources/log
+mkdir -p src/resources/test
+mkdir -p src/resources/script
+mkdir -p src/resources/server
 
 mkdir -p src/config/environments
 mkdir -p src/config/initializers
 mkdir -p src/config/locales
 
-sqlite3 src/db/gospel_ios.db ""
+sqlite3 src/db/sl_ios.db ""
 
 mkdir vendor
 
